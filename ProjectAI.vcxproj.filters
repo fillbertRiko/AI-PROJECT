@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{368e490b-4038-4302-9221-27852f4d63f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{81308a8e-f1a9-4191-92be-864431b9b7a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{4b7a9df1-2f9e-4a26-9aaf-fbe94a8d2d5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{eb38e52d-bdb2-4843-a098-0213d6ba607c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{f1a41947-0463-48b4-8be1-49830dcb6ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\include">
+      <UniqueIdentifier>{50a53881-76d5-49ba-8721-0f456fcddd54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\src">
+      <UniqueIdentifier>{d9ab887c-9920-4abf-ad82-563ee3115f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\include">
+      <UniqueIdentifier>{9aad289d-a788-4465-b18f-5dcff56d3d6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Controller\src">
+      <UniqueIdentifier>{9c125496-d31a-4b69-8ed5-ad4fa8509c04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\include">
+      <UniqueIdentifier>{a9aa5420-8277-4259-ad6e-7774e1e8c517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\src">
+      <UniqueIdentifier>{627b0673-ec41-428b-af1e-0ced12a7dd3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\res">
+      <UniqueIdentifier>{8a2b8d45-c7eb-4498-8a3a-dffeb1ed81b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FactBase.h">
+      <Filter>Model\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Rule.h">
+      <Filter>Model\include</Filter>
+    </ClInclude>
+    <ClInclude Include="KnowledgeBase.h">
+      <Filter>Model\include</Filter>
+    </ClInclude>
+    <ClInclude Include="InferenceEngine.h">
+      <Filter>Controller\include</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplanationEngine.h">
+      <Filter>Controller\include</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowApp.h">
+      <Filter>View\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>View\src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="ProjectAI.ico">
+      <Filter>View\res</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>View\res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProjectAI.cpp" />
+    <ClCompile Include="FactBase.cpp">
+      <Filter>Model\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Rule.cpp">
+      <Filter>Model\src</Filter>
+    </ClCompile>
+    <ClCompile Include="KnowledgeBase.cpp">
+      <Filter>Model\src</Filter>
+    </ClCompile>
+    <ClCompile Include="InferenceEngine.cpp">
+      <Filter>Controller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplanationEngine.cpp">
+      <Filter>Controller\src</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowApp.cpp">
+      <Filter>View\src</Filter>
+    </ClCompile>
+    <ClCompile Include="test_main.cpp">
+      <Filter>tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProjectAI.rc">
+      <Filter>View\src</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
